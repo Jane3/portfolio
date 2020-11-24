@@ -12,7 +12,8 @@ const greeting = {
   username: "Jane You",
   title: "Hi there, I am Jane",
   subTitle: emoji("Software developer with 2 years of experience debugging, maintaining and implementing new features to the existing applications written in Javascript, HTML, Jquery and Java."),
-  resumeLink: "https://docs.google.com/document/d/1du-4Zwe6455j7eIQ_kOGw_ugZZHUTS-qNeaP_1yDjaY/edit?fbclid=IwAR1Ziy7n_uImXTUoAqnnLS9JkWO2DX1VSitjUaKgK2owaBW7v0rEB5RXJvo"
+  resumeLink: "https://docs.google.com/document/d/1du-4Zwe6455j7eIQ_kOGw_ugZZHUTS-qNeaP_1yDjaY/edit"
+               
 };
 
 // Your Social Media Link
