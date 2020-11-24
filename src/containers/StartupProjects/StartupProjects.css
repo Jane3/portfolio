@@ -31,8 +31,18 @@
 .subTitle {
   color: #868e96;
 }
+.burger{
+  width: 338px;
+  height: auto;
+}
 
-.saaya-health-div,
+.burger:hover {
+  opacity: 0.3; 
+  text-shadow: 2px 1px 2px #b5b5b5;
+  transition: all 0.3s;
+}
+
+.burger-builder-div,
 .nextu-div {
   cursor: pointer;
 }

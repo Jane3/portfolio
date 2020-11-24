@@ -1,11 +1,8 @@
 {
   "short_name": "Jane You Portfolio",
-  "name": "Jane You Portfolio",
+  "name": "Jane You Portfolio"
 
-  "start_url": ".",
-  "display": "standalone",
-  "theme_color": "#6c63ff",
-  "background_color": "#ffffff"
+  
   
   
 }

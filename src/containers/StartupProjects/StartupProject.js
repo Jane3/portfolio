@@ -27,10 +27,11 @@ export default function StartupProject() {
               {bigProjects.projects.map((project) => {
                 return (
                   <div
-                    className="saaya-health-div"
+                    className="burger-builder-div"
                     onClick={() => openProjectInNewWindow(project.link)}
                   >
-                    <img alt="Burger Builder App in progress, Please click on text to see Github code" src={"./assets/images/saayaHealthLogo.webp"}></img>
+                   
+                    <img className="burger" alt="Burger Builder App in progress, Please click on text to see Github code" src ={require("../../assets/images/Burger-Builder.png")}></img>
                   </div>
                 );
               })}

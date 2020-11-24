@@ -139,7 +139,7 @@ const bigProjects = {
   subtitle: "I am trying to build and develop more projects to further enhance my skills in Web Development ",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
+      image: require("./assets/images/Burger-Builder.png"),
       link: "https://github.com/Jane3/Burger-Builder"
     },
     
