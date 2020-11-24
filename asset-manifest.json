@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.8d798d60.chunk.css",
+    "main.js": "/portfolio/static/js/main.7a251f23.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.7a251f23.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.eb10029c.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.eb10029c.js.map",
+    "static/js/2.06353dd7.chunk.js": "/portfolio/static/js/2.06353dd7.chunk.js",
+    "static/js/2.06353dd7.chunk.js.map": "/portfolio/static/js/2.06353dd7.chunk.js.map",
+    "static/css/3.ca87188b.chunk.css": "/portfolio/static/css/3.ca87188b.chunk.css",
+    "static/js/3.94a28e7a.chunk.js": "/portfolio/static/js/3.94a28e7a.chunk.js",
+    "static/js/3.94a28e7a.chunk.js.map": "/portfolio/static/js/3.94a28e7a.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "precache-manifest.4130da423e52026d23c5ae24d0eb218a.js": "/portfolio/precache-manifest.4130da423e52026d23c5ae24d0eb218a.js",
+    "service-worker.js": "/portfolio/service-worker.js",
+    "static/css/3.ca87188b.chunk.css.map": "/portfolio/static/css/3.ca87188b.chunk.css.map",
+    "static/css/main.8d798d60.chunk.css.map": "/portfolio/static/css/main.8d798d60.chunk.css.map",
+    "static/media/index.css": "/portfolio/static/media/Montserrat-Regular.ee653992.ttf",
+    "static/media/Burger-Builder.png": "/portfolio/static/media/Burger-Builder.674ec4b7.png",
+    "static/media/Jane.png": "/portfolio/static/media/Jane.fcd099e3.png",
+    "static/media/Skills.jpeg": "/portfolio/static/media/Skills.5aace10e.jpeg",
+    "static/media/bmo-logo.jpg": "/portfolio/static/media/bmo-logo.e200e517.jpg",
+    "static/media/contact.jpg": "/portfolio/static/media/contact.8e290eda.jpg",
+    "static/media/logo.svg": "/portfolio/static/media/logo.25bf045c.svg",
+    "static/media/sante-canada-.png": "/portfolio/static/media/sante-canada-.69f4b5d0.png",
+    "static/media/uOttawa.png": "/portfolio/static/media/uOttawa.7ecae964.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.eb10029c.js",
+    "static/js/2.06353dd7.chunk.js",
+    "static/css/main.8d798d60.chunk.css",
+    "static/js/main.7a251f23.chunk.js"
+  ]
+}
