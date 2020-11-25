@@ -34,7 +34,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "Skills",
-  subTitle: "I consider myself very lucky as I have found my passion in Web Development, which motivates me to further expand my knowledge and skills in this area through continuous learningssss, because once I have found my passion, I no longer see learning as a hassle, but rather as an enjoyment.",
+  subTitle: "I consider myself very lucky as I have found my passion in Web Development, which motivates me to further expand my knowledge and skills in this area through continuous learning, because once I have found my passion, I no longer see learning as a hassle, but rather as an enjoyment.",
   skills: [
    
   ],
