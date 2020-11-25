@@ -7,6 +7,7 @@ import emoji from "react-easy-emoji";
 
 
 
+
 const greeting = {
   /* Your Summary And Greeting Section */
   username: "Jane You",
@@ -141,10 +142,10 @@ const bigProjects = {
   projects: [
     {
       image: require("./assets/images/Burger-Builder.png"),
-      link: "https://github.com/Jane3/Burger-Builder"
+      link: "https://Jane3.github.io/Burger-Builder",
+      gitLink: "https://github.com/Jane3/Burger-Builder"
       
-    },
-    
+    }
   ]
 };
 
