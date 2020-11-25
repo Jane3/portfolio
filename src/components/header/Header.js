@@ -31,12 +31,13 @@ function Header() {
               <a href="#experience">Work Experiences</a>
             </li>
           )}
-         <li>
-            <a href="#education">Education</a>
-          </li>
 
           <li>
             <a href="#projects">Projects</a>
+          </li>
+
+         <li>
+            <a href="#education">Education</a>
           </li>
 
           <li>

@@ -87,7 +87,7 @@ const educationInfo = {
     {
       schoolName: "University of Ottawa",
       logo: require("./assets/images/uOttawa.png"),
-      subHeader: "Bachelor's Degrees in Electrical Engineering",
+      subHeader: "Bachelor's Degree in Electrical Engineering",
       duration: "September 2014 - December 2018"
     }
   ]
@@ -105,7 +105,7 @@ const workExperiences = {
       companylogo: require("./assets/images/bmo-logo.jpg"),
       date: "March 2020– July 2020 (Contract)",
       descBullets: [
-        "Implemented new functionalities for BMO websites with HTML5, JavaScript, CSS3 and jQuery for better user experience and websites content updates, used Adobe Target and OpenText's Web Experience Management (WEM) for code implementation, and went through the code review process with the team using BitBucket",
+        "Implemented new functionalities to BMO websites with HTML5, JavaScript, CSS3 and jQuery for better user experience and websites content updates, used Adobe Target and OpenText's Web Experience Management (WEM) for code implementation, and went through the code review process with the team using BitBucket",
         "Performed A/B testing and Experience Targeting on Adobe Target to personalize content for website visitors"
       ]
     },

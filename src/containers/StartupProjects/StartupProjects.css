@@ -22,7 +22,6 @@
 
 .startup-project-text {
   display: flex;
-  
   justify-content: space-between;
 }
 
@@ -45,7 +44,7 @@
 
 .burger-builder-div,
 .nextu-div {
-  
+  display: inline-grid;
   cursor: pointer;
 }
 
