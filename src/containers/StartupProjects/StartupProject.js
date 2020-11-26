@@ -38,9 +38,15 @@ export default function StartupProject() {
                     className="burger-builder-div"
                     //onClick={() => openProjectInNewWindow(project.link)}
                   >
-                    <a href= {project.link} target="_blank">  
-                    <img className="burger" alt="Burger Builder Application" src ={project.image}></img></a>  
 
+                    <div className="container">
+                      <a href= {project.link} target="_blank">  
+                        <img alt="Burger Builder Application" src ={project.image} className="image" ></img></a>
+                        <div className="middle">
+                          <div className="text"></div>
+                        </div>
+                    </div>
+            
                     <a href= {project.gitLink} target="_blank">     
                     Github Link</a>  
 
