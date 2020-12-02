@@ -1,6 +1,6 @@
 .main {
   width: 90%;
-  padding: 20px 10px;
+  /*padding: 20px 10px;*/
   margin: 0px auto;
   margin-top: 4rem;
 }
@@ -46,8 +46,10 @@
 }
 
 .greeting-image-div > img {
-  max-width: 64%;
+  max-width: 70%;
   height: auto;
+  margin-left: 20%;
+  margin-right: 20%; 
 }
 .wave-emoji {
   animation-duration: 1.8s;
@@ -105,5 +107,21 @@
   }
   .greeting-main {
     display: block;
+  }
+  
+  .greet-main{
+    width:90%;
+    margin: 0px auto;
+    margin-top: 2rem;
+    padding: 0px;
+  }
+}
+
+@media (max-width: 767px) {
+  .greeting-image-div > img {
+    max-width: 100%;
+    height: auto;
+    margin-left: 0%;
+    margin-right: 0%;
   }
 }
