@@ -41,16 +41,19 @@ export default function StartupProject() {
 
                     <div className="container">
                       <a href= {project.link} target="_blank">  
-                        <img alt="Burger Builder Application" src ={project.image} className="image" ></img></a>
+                        <img alt="Project Image" src ={project.image} className="image" ></img></a>
                         <div className="middle">
                           <div className="text"></div>
                         </div>
                     </div>
-            
+
+                    
                     <a href= {project.gitLink} target="_blank">     
                     Github Link</a>  
-
+                      <br></br>
                     </div>
+                    
+                
                 );
               })}
             </div>

@@ -142,9 +142,14 @@ const bigProjects = {
   projects: [
     {
       image: require("./assets/images/Burger-Builder.png"),
-      //link: "https://Jane3.github.io/Burger-Builder",
       link: "https://burger-builder-web.herokuapp.com/",
       gitLink: "https://github.com/Jane3/Burger-Builder"
+      
+    },
+    {
+      image: require("./assets/images/Recipe.png"),
+      link: "https://github.com/Jane3/recipe-book-app",
+      gitLink: "https://github.com/Jane3/recipe-book-app"
       
     }
   ]
