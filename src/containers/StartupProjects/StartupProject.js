@@ -3,7 +3,7 @@ import "./StartupProjects.css";
 import { bigProjects } from "../../portfolio";
 import { Fade } from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
-
+import Dashboard from '../../components/dashboard/Dashboard.js'
 
 export default function StartupProject() {
   function openProjectInNewWindow(url) {
@@ -28,40 +28,46 @@ export default function StartupProject() {
           >
             {bigProjects.subtitle}
           </p>
-         
-          <div className="startup-projects-main">
-            <div className="startup-project-text">
-              {bigProjects.projects.map((project) => {
-               
-                return (
-                  <div
-                    className="burger-builder-div"
-                    //onClick={() => openProjectInNewWindow(project.link)}
-                  >
+        
+     
+          <Dashboard/>
 
-                    <div className="container">
-                      <a href= {project.link} target="_blank">  
-                        <img alt="Project Image" src ={project.image} className="image" ></img></a>
-                        <div className="middle">
-                          <div className="text"></div>
-                        </div>
-                    </div>
-
-                    
-                    <a href= {project.gitLink} target="_blank">     
-                    Github Link</a>  
-                      <br></br>
-                    </div>
-                    
-                
-                );
-              })}
-            </div>
-            <div className="startup-project-image"></div>
-          </div>
         </div>
       </div>
       
     </Fade>
   );
 }
+
+/*
+<div className="startup-projects-main">
+<div className="startup-project-text">
+  {bigProjects.projects.map((project) => {
+   
+    return (
+      <div
+        className="burger-builder-div"
+        //onClick={() => openProjectInNewWindow(project.link)}
+      >
+        <Dashboard/>
+        <div className="container">
+          <a href= {project.link} target="_blank">  
+            <img alt="Project Image" src ={project.image} className="image" ></img></a>
+            <div className="middle">
+              <div className="text"></div>
+            </div>
+        </div>
+
+        
+        <a href= {project.gitLink} target="_blank">     
+        Github Link</a>  
+          <br></br>
+        </div>
+    
+    );
+  })}
+</div>
+<div className="startup-project-image"></div>
+</div>
+
+*/

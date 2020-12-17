@@ -101,6 +101,15 @@ const workExperiences = {
   experience: [
     {
       role: "Front-End Web Developer",
+      company: "Communyco",
+      companylogo: require("./assets/images/Communyco.png"),
+      date: "December 2020– Current (Part-time Internship)",
+      descBullets: [
+        "In the process of developing and building a full scale social media platform that connects content creators with their corresponding followers using React, JavaScript and Redux"
+      ]
+    },
+    {
+      role: "Front-End Web Developer",
       company: "Bank of Montréal, BMO",
       companylogo: require("./assets/images/bmo-logo.jpg"),
       date: "March 2020– July 2020 (Contract)",
@@ -143,13 +152,15 @@ const bigProjects = {
     {
       image: require("./assets/images/Burger-Builder.png"),
       link: "https://burger-builder-web.herokuapp.com/",
-      gitLink: "https://github.com/Jane3/Burger-Builder"
+      gitLink: "https://github.com/Jane3/Burger-Builder",
+      description: "A Burger Builder Application in React.js that allows users to customize the burger they want and proceed to checkout with the help of Redux for State Management and Firebase for Backend-as-a-Service."
       
     },
     {
       image: require("./assets/images/Recipe.png"),
       link: "https://github.com/Jane3/recipe-book-app",
-      gitLink: "https://github.com/Jane3/recipe-book-app"
+      gitLink: "https://github.com/Jane3/recipe-book-app",
+      description: "Recipe Book written in JavaScript that allows users to search, add, and bookmark recipes, and update the number of servings."
       
     }
   ]
