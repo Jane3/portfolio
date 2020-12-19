@@ -32,19 +32,12 @@ class Dashboard extends Component {
                             //onClick={() => openProjectInNewWindow(project.link)}
                         >
                             <div className="container">
-                            <Modal show={this.state.show} >
-                                
-                                <p>{project.description}</p>
-                                <a href= {project.gitLink} target="_blank">     
-                                    Github Link
-                                </a>      
-                            </Modal>  
                               
-                            <div  onClick={this.showModal} target="_blank">  
+                            <a href={project.link} target="_blank">  
                             <img alt="Project Image" src ={project.image} className="image" >
                                 </img>
    
-                            </div>
+                            </a>
                             
   
                                 <p>{project.description}</p>

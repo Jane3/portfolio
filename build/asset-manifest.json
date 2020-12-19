@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.0c2fd531.chunk.css",
-    "main.js": "/portfolio/static/js/main.6f5de5c0.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.6f5de5c0.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.d721697e.chunk.css",
+    "main.js": "/portfolio/static/js/main.00d17469.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.00d17469.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.010e0cc7.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.010e0cc7.js.map",
     "static/js/2.67f0c9c4.chunk.js": "/portfolio/static/js/2.67f0c9c4.chunk.js",
@@ -11,14 +11,14 @@
     "static/js/3.0124e2c6.chunk.js": "/portfolio/static/js/3.0124e2c6.chunk.js",
     "static/js/3.0124e2c6.chunk.js.map": "/portfolio/static/js/3.0124e2c6.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.ae5b79c86314160e7a955fca5f49963b.js": "/portfolio/precache-manifest.ae5b79c86314160e7a955fca5f49963b.js",
+    "precache-manifest.fd36a05930aa151fe8534b6ca7d72653.js": "/portfolio/precache-manifest.fd36a05930aa151fe8534b6ca7d72653.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/3.ca87188b.chunk.css.map": "/portfolio/static/css/3.ca87188b.chunk.css.map",
-    "static/css/main.0c2fd531.chunk.css.map": "/portfolio/static/css/main.0c2fd531.chunk.css.map",
+    "static/css/main.d721697e.chunk.css.map": "/portfolio/static/css/main.d721697e.chunk.css.map",
     "static/media/index.css": "/portfolio/static/media/Montserrat-Regular.ee653992.ttf",
-    "static/media/Burger-Builder.png": "/portfolio/static/media/Burger-Builder.793c2d76.png",
     "static/media/Communyco.png": "/portfolio/static/media/Communyco.c57ed71a.png",
     "static/media/Jane.png": "/portfolio/static/media/Jane.7c686dc5.png",
+    "static/media/Pizza-Builder.png": "/portfolio/static/media/Pizza-Builder.d35c8d14.png",
     "static/media/Recipe.png": "/portfolio/static/media/Recipe.b624b450.png",
     "static/media/Skills.jpeg": "/portfolio/static/media/Skills.5aace10e.jpeg",
     "static/media/bmo-logo.jpg": "/portfolio/static/media/bmo-logo.e200e517.jpg",
@@ -30,7 +30,7 @@
   "entrypoints": [
     "static/js/runtime-main.010e0cc7.js",
     "static/js/2.67f0c9c4.chunk.js",
-    "static/css/main.0c2fd531.chunk.css",
-    "static/js/main.6f5de5c0.chunk.js"
+    "static/css/main.d721697e.chunk.css",
+    "static/js/main.00d17469.chunk.js"
   ]
 }
