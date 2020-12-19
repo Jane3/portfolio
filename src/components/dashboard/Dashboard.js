@@ -6,6 +6,7 @@ import Modal from "../modal/Modal.js";
 
 
 class Dashboard extends Component {
+   
     state={
         show:false
     };
@@ -25,17 +26,27 @@ class Dashboard extends Component {
                     <div className="startup-project-text">
                     {bigProjects.projects.map((project) => {
                         return (
+                        
                         <div
                             className="burger-builder-div"
                             //onClick={() => openProjectInNewWindow(project.link)}
                         >
                             <div className="container">
-                            <a href= {project.link} target="_blank">  
-                                <img alt="Project Image" src ={project.image} className="image" ></img></a>
-                                <div className="middle">
-                                <div className="text"></div>
-                                </div>
-
+                            <Modal show={this.state.show} >
+                                
+                                <p>{project.description}</p>
+                                <a href= {project.gitLink} target="_blank">     
+                                    Github Link
+                                </a>      
+                            </Modal>  
+                              
+                            <div  onClick={this.showModal} target="_blank">  
+                            <img alt="Project Image" src ={project.image} className="image" >
+                                </img>
+   
+                            </div>
+                            
+  
                                 <p>{project.description}</p>
                                 <a href= {project.gitLink} target="_blank">     
                                     Github Link
@@ -48,14 +59,10 @@ class Dashboard extends Component {
                         </div>
                         
                         );
-                    })}
-                    </div>
-                    <div className="startup-project-image"></div>
+                    })}        
                 </div>
-
-               
-
                 
+                </div>
             </main>
         );
     }
@@ -69,8 +76,10 @@ export default Dashboard;
                                 <a href= {project.gitLink} target="_blank">     
                                     Github Link
                                 </a>  
+
+                                <button type="button" onClick={this.showModal}>
+                                open
+                            </button>
                                 </Modal>
 
-                            <button type="button" onClick={this.showModal}>
-                                open
-                            </button>*/
+                            */

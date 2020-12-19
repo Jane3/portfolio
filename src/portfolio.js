@@ -12,7 +12,7 @@ const greeting = {
   /* Your Summary And Greeting Section */
   username: "Jane You",
   title: "Hi there, I am Jane",
-  subTitle: emoji("Software developer with 2 years of experience debugging, maintaining and implementing new features to the existing applications written in Javascript, HTML, Jquery and Java."),
+  subTitle: emoji("I am a software developer with 2 years of experience debugging, maintaining and implementing new features to the existing applications and platforms written in React JS, Javascript, HTML, JQuery, CSS, Python and Java to improve user experience and make software updates. I am constantly looking for challenging problems to tackle on HackerRank and learning new programming languages on my free time."),
   resumeLink: "https://docs.google.com/document/d/1du-4Zwe6455j7eIQ_kOGw_ugZZHUTS-qNeaP_1yDjaY/edit"
                
 };
@@ -35,7 +35,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "Skills",
-  subTitle: "I consider myself very lucky as I have found my passion in Web Development, which motivates me to further expand my knowledge and skills in this area through continuous learning, because once I have found my passion, I no longer see learning as a hassle, but rather as an enjoyment.",
+  subTitle: "I consider myself very lucky as I have found my passion in Software Development, which motivates me to further expand my knowledge and skills in this area through continuous learning, because once I have found my passion, I no longer see learning as a hassle, but rather as an enjoyment.",
   skills: [
    
   ],
@@ -150,10 +150,10 @@ const bigProjects = {
   subtitle: "I am trying to build and develop more projects to further enhance my skills in Web Development ",
   projects: [
     {
-      image: require("./assets/images/Burger-Builder.png"),
-      link: "https://burger-builder-web.herokuapp.com/",
-      gitLink: "https://github.com/Jane3/Burger-Builder",
-      description: "A Burger Builder Application in React.js that allows users to customize the burger they want and proceed to checkout with the help of Redux for State Management and Firebase for Backend-as-a-Service."
+      image: require("./assets/images/Pizza-Builder.png"),
+      link: "https://pizza-eat-app.herokuapp.com/",
+      gitLink: "https://github.com/Jane3/pizza-eat-app",
+      description: "A Pizza Builder Application in React.js (Single Page Application) that allows users to customize the pizza they want and proceed to checkout with the help of Redux for State Management and Firebase for Backend-as-a-Service."
       
     },
     {

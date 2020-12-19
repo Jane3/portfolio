@@ -9,9 +9,10 @@
   
   .startup-project-image > img {
     max-width: 100%;
-    height: auto;
+    /*height: auto;*/
+    height: 211px;
   }
-  
+
   .project-card-head {
     color: rgb(36, 41, 46);
     font-size: 25px;
@@ -22,7 +23,7 @@
   
   .startup-project-text {
     display: flex;
-    justify-content: space-between;
+    justify-content: unset;
   }
   
   .project-card-description {
@@ -80,9 +81,7 @@
     
   }
   @media (max-width: 768px) {
-    .startup-project-image {
-      display: none;
-    }
+    
     .project-subtitle {
       font-size: 16px;
       text-align: center;
