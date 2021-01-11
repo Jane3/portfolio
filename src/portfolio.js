@@ -12,7 +12,7 @@ const greeting = {
   /* Your Summary And Greeting Section */
   username: "Jane You",
   title: "Hi there, I am Jane",
-  subTitle: emoji("I am a software developer with 2 years of experience debugging, maintaining and implementing new features to the existing applications and platforms written in React JS, Javascript, HTML, JQuery, CSS, Python and Java to improve user experience and make software updates. I am constantly looking for challenging problems to tackle on HackerRank and learning new programming languages on my free time."),
+  subTitle: emoji("I am a software developer with 2 years of experience debugging, maintaining and implementing new features to the existing applications and platforms written in React JS, Javascript, HTML, JQuery, CSS, Python and Java to improve user experience and make software updates. I am constantly looking for challenging problems to tackle on HackerRank and Leetcode, and learning new programming languages on my free time."),
   resumeLink: "https://docs.google.com/document/d/1du-4Zwe6455j7eIQ_kOGw_ugZZHUTS-qNeaP_1yDjaY/edit"
                
 };
@@ -105,7 +105,7 @@ const workExperiences = {
       companylogo: require("./assets/images/Communyco.png"),
       date: "December 2020– Current (Part-time Internship)",
       descBullets: [
-        "In the process of developing and building a full scale social media platform that connects content creators with their corresponding followers using React, JavaScript and Redux"
+        "In the process of developing and building a full scale social media platform that connects content creators with their corresponding followers by working with other developers on the front end design, developing Register Form, Login Form and Email Microservice with React.js, JavaScript and React Hooks, and fixing any bugs present in the code"
       ]
     },
     {
@@ -160,7 +160,7 @@ const bigProjects = {
       image: require("./assets/images/Recipe.png"),
       link: "https://github.com/Jane3/recipe-book-app",
       gitLink: "https://github.com/Jane3/recipe-book-app",
-      description: "Recipe Book written in JavaScript that allows users to search, add, and bookmark recipes, and update the number of servings."
+      description: "In the process of designing a Recipe Book written in JavaScript that allows users to search, add, and bookmark recipes, and update the number of servings."
       
     }
   ]
