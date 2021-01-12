@@ -100,7 +100,7 @@ const workExperiences = {
   viewExperiences: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Front-End Web Developer",
+      role: "Full-Stack Web Developer",
       company: "Communyco",
       companylogo: require("./assets/images/Communyco.png"),
       date: "December 2020– Current (Part-time Internship)",
