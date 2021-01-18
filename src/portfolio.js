@@ -12,7 +12,7 @@ const greeting = {
   /* Your Summary And Greeting Section */
   username: "Jane You",
   title: "Hi there, I am Jane",
-  subTitle: emoji("I am a software developer with 2 years of experience debugging, maintaining and implementing new features to the existing applications and platforms written in React JS, Javascript, HTML, JQuery, CSS, Python and Java to improve user experience and make software updates. I am constantly looking for challenging problems to tackle on HackerRank and Leetcode, and learning new programming languages on my free time."),
+  subTitle: emoji("I am a software developer with 2 years of experience debugging, maintaining and implementing new features to the existing applications and platforms written in React JS, Javascript, HTML, Node JS, CSS, Python and Java to improve user experience and make software updates. I am constantly looking for challenging problems to tackle on HackerRank and Leetcode, and working towards Udemy completion certificates in React JS, JavaScript, MongoDB and Node.js in my free time."),
   resumeLink: "https://docs.google.com/document/d/1du-4Zwe6455j7eIQ_kOGw_ugZZHUTS-qNeaP_1yDjaY/edit"
                
 };
@@ -105,7 +105,8 @@ const workExperiences = {
       companylogo: require("./assets/images/Communyco.png"),
       date: "December 2020– Current (Part-time Internship)",
       descBullets: [
-        "In the process of developing and building a full scale social media platform that connects content creators with their corresponding followers by working with other developers on the front end design, developing Register Form, Login Form and Email Microservice with React.js, JavaScript and React Hooks, and fixing any bugs present in the code"
+        "Developing back-end and front-end features from scratch for a full scale social media platform that connects content creators with their followers",
+        "Validating Login/Signup forms with React.js and React Hooks, developing an Email Microservice with JavaScript, Typescript and Node.js, and fixing any bugs present in the existing codebase"
       ]
     },
     {
@@ -114,7 +115,7 @@ const workExperiences = {
       companylogo: require("./assets/images/bmo-logo.jpg"),
       date: "March 2020– July 2020 (Contract)",
       descBullets: [
-        "Implemented new functionalities to BMO websites with HTML5, JavaScript, CSS3 and jQuery for better user experience and web content updates, used Adobe Target and OpenText's Web Experience Management (WEM) for code implementation, and went through the code review process with the team using BitBucket",
+        "Implemented new functionalities to BMO's website with HTML5, JavaScript, CSS3 and jQuery for better user experience and web content updates, used Adobe Target and OpenText's Web Experience Management (WEM) for code implementation, and went through the code review process with the team using BitBucket",
         "Performed A/B testing and Experience Targeting on Adobe Target to personalize content for website visitors"
       ]
     },
