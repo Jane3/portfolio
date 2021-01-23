@@ -103,7 +103,7 @@ const workExperiences = {
       role: "Full-Stack Web Developer",
       company: "Communyco",
       companylogo: require("./assets/images/Communyco.png"),
-      date: "December 2020– Current (Internship)",
+      date: "December 2020– Current (Part-time Internship)",
       descBullets: [
         "Developing back-end and front-end features from scratch with other developers for a full scale social media platform that connects content creators with their followers",
         "Building and optimizing front-end design features and functionalities with React.js and React Hooks, developing Microservices with JavaScript, Typescript and Node.js, and fixing any bugs in the existing codebase"
